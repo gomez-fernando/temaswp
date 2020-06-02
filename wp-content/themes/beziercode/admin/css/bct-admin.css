@@ -11,3 +11,98 @@
 /* Rules for using icons as white on a dark background. */
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/*
+* Estilos Globales
+*/
+
+.mb0 {margin-bottom: 0 !important;}
+
+/* Header */
+.bct-header {
+    background-blend-mode: soft-light;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.bct-header .bct-port {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.bct-header .bct-port img {
+    width: 60px;
+    color: white;
+    position: relative;
+    margin: 20px 0;
+}
+.bct-header-title {
+    background: rgba(0, 0, 0, 0.29);
+    text-align: center;
+    padding: 9px 0;
+  }
+.bct-header-title h4 {
+    color: white;
+    margin: 0;
+}
+.btn-bct {
+    border: 0;
+    color: white;
+    width: auto;
+    height: 41px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 14px 0 17px;
+    position: absolute;
+    right: 12px;
+    top: 0;
+    right: 12px;
+    z-index: 99;
+    cursor: pointer;
+}
+.p-relative {
+position: relative;
+}
+.bct-bg-verde {
+background: #1eac12;
+}
+.bct-bg-verde:hover {
+background: #128008;
+}
+
+/* Items Columna Izquierda */
+ul.bct-menu {
+margin: 0;
+padding: 0;
+background: #293b3f;
+}
+.bct-menu li {
+font-size: 20px;
+}
+.bct-menu li a {
+    color: white;
+    padding: 12px 11px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-left: 7px solid transparent;
+    
+}
+.bct-menu li a:hover, .bct-menu li a.activo {
+    border-left: 7px solid rgba(255, 255, 255, 0.6);
+    background: #161e21;
+}
+  
+
